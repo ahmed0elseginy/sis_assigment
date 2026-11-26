@@ -363,3 +363,7 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 config.bat
+# Secrets (restored after the malware removed them)
+.env
+.env.*
+!.env.example
